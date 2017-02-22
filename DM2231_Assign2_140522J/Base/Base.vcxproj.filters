@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Strategy Tools">
+      <UniqueIdentifier>{bd008b19-a3b4-496f-ac4f-0b11c5c464d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Strategy Tools">
+      <UniqueIdentifier>{130829d4-232c-4aeb-ae3a-dd63d2639eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Application Setup">
+      <UniqueIdentifier>{cfeb4d2f-b5e1-4994-bb66-5ba87125b976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Materials">
+      <UniqueIdentifier>{c179e7f2-09fe-4521-ac57-2ddac7db0ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Application">
+      <UniqueIdentifier>{c00e20cf-1b87-4e5c-8598-2da685794339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Materials">
+      <UniqueIdentifier>{2b74ab3e-094e-4da1-9c24-145ce75bd2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Goodies Tools">
+      <UniqueIdentifier>{6fda36b8-4618-46bb-83a2-8f466fa8f7b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Goodies Tools">
+      <UniqueIdentifier>{599b3136-7647-4182-8c29-8326717df412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneAssignment">
+      <UniqueIdentifier>{98a02751-cf50-4844-b85c-07c7692205fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneAssignment">
+      <UniqueIdentifier>{b2bcea12-3a84-4cc9-af30-27e006f9d698}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Strategy.cpp">
+      <Filter>Source Files\Strategy Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategy_Kill.cpp">
+      <Filter>Source Files\Strategy Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Strategy_Run.cpp">
+      <Filter>Source Files\Strategy Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera3.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadOBJ.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadTGA.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mesh.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\shader.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshBuilder.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source Files\Game Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Minimap.cpp">
+      <Filter>Source Files\Game Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerInfo.cpp">
+      <Filter>Source Files\Game Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goodies.cpp">
+      <Filter>Source Files\Goodies Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GoodiesFactory.cpp">
+      <Filter>Source Files\Goodies Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TreasureChest.cpp">
+      <Filter>Source Files\Goodies Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneAssignment.cpp">
+      <Filter>Source Files\SceneAssignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteAnimation.cpp">
+      <Filter>Source Files\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map.cpp">
+      <Filter>Source Files\Game Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Health.cpp">
+      <Filter>Source Files\Goodies Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound.cpp">
+      <Filter>Source Files\SceneAssignment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Strategy.h">
+      <Filter>Header Files\Strategy Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Strategy_Kill.h">
+      <Filter>Header Files\Strategy Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Strategy_Run.h">
+      <Filter>Header Files\Strategy Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Geometry.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadOBJ.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Light.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\LoadTGA.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Material.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Mesh.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshBuilder.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\shader.hpp">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Utility.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Vertex.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera3.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Header Files\Game Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Map.h">
+      <Filter>Header Files\Game Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Minimap.h">
+      <Filter>Header Files\Game Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerInfo.h">
+      <Filter>Header Files\Game Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goodies.h">
+      <Filter>Header Files\Goodies Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GoodiesFactory.h">
+      <Filter>Header Files\Goodies Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TreasureChest.h">
+      <Filter>Header Files\Goodies Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SceneAssignment.h">
+      <Filter>Header Files\SceneAssignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteAnimation.h">
+      <Filter>Header Files\Application Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Health.h">
+      <Filter>Header Files\Goodies Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound.h">
+      <Filter>Header Files\SceneAssignment</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Base.rc">
+      <Filter>Shader</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
